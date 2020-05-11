@@ -1,0 +1,7 @@
+<input
+  *ngIf="isSelectionEnabled"
+  type="checkbox"
+  aria-label="toggle all"
+  [ngModel]="isAllItemsSelected"
+  (ngModelChange)="handleGlobalSelection($event)"
+>

@@ -1,0 +1,17 @@
+:host {
+  padding: 10px;
+}
+
+.toolbar-row {
+  display: flex;
+  flex-direction: column;
+  & + .toolbar-row {
+    margin-top: 10px;
+  }
+}
+
+.selection-mode-row {
+  button {
+    margin-top: 5px;
+  }
+}

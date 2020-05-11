@@ -1,0 +1,12 @@
+<div class="toolbar-row selection-mode-row">
+  <span>Selection mode: </span>
+  <button type="button" (click)="switchSelectionMode()">Switch selection mode</button>
+</div>
+
+<div class="toolbar-row total-rows">
+  <span>Total rows: {{ totalRows }}</span>
+</div>
+
+<div class="toolbar-row total-selected-rows" *ngIf="isSelectionEnabled">
+  <span>Total selected rows: {{ selectedRows }}</span>
+</div>
