@@ -17,7 +17,6 @@ import { youtubeVideoLinkFactory } from './youtube-video-link.factory';
 @Component({
   selector: 'app-data-grid',
   templateUrl: './data-grid.component.html',
-  styleUrls: ['./data-grid.component.scss'],
   providers: [DataGridService],
 })
 export class DataGridComponent {
